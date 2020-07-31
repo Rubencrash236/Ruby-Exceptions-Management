@@ -1,0 +1,18 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ffi (1.13.1-x64-mingw32)
+    get_process_mem (0.2.5)
+      ffi (~> 1.0)
+    sys-proctable (1.2.5)
+      ffi
+
+PLATFORMS
+  x64-mingw32
+
+DEPENDENCIES
+  get_process_mem
+  sys-proctable
+
+BUNDLED WITH
+   2.1.4
